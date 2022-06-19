@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>ALBTRAVEL</title>
+</head>
+<script src="main.js"></script>
+<body>
+    <div>
+        <header id="header">
+            <h1>ALBTRAVEL AGENCY</h1>
+            <nav id="nav">
+                <a  href="#">Home&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                <a href="#about">About&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                <a   href="#packages">Packages&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                <a  href="#discount">Discount&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            </nav>
+        </header>
+        <div>
+            <br>
+            <img  src="img/background.jpg">
+            <div id="about">
+                <h2 >About us</h2> 
+                <p id="p1" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>
+                    Expedita consequatur, deleniti labore ex incidunt maiores? <br>
+                    Dolores suscipit praesentium qui aliquid!</p>
+            </div>
+       </div>
+       <br>
+       <hr>
+        <div id="packages">
+      
+      
+         <div class="slideshow-container fade">
+             <h1 style="color: rgb(4, 82, 71);">
+                Click circles or buttons to see the packages
+            </h1>
+
+        <!-- Full images with numbers and message Info -->
+        <div class="Containers">
+          <div class="MessageInfo">1 / 3</div>
+          <img src="img/komani.jpg" style="width:100%">
+          <div class="Info"> <p>KOMANI LAKE <BR>
+            50 EURO
+            </p></div>
+        </div>
+      
+        <div class="Containers">
+          <div class="MessageInfo">2 / 3</div>
+          <img src="img/theth.jpg" style="width:100%">
+          <div class="Info"><p>THETH <BR> 35 EURO</p></div>
+        </div>
+      
+        <div class="Containers">
+          <div class="MessageInfo">3 / 3</div>
+          <img src="img/vjosa.jpg" style="width:100%">
+          <div class="Info"><p>VJOSA<br>40 EURO</p></div>
+        </div>
+      
+        <!-- Back and forward buttons -->
+        <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      </div>
+      <br>
+      
+      <!-- The circles/dots -->
+      <div style="text-align:center">
+        <span class="dots" onclick="currentSlide(1)"></span>
+        <span class="dots" onclick="currentSlide(2)"></span>
+        <span class="dots" onclick="currentSlide(3)"></span>
+      </div> 
+      <hr>
+    <div id="discount">
+        <h1 style="color: rgb(4, 82, 71);" >
+            BIG DISCOUNT : 50 % OFF EVERY PACKAGE <br>
+            Fill the form to get the offer!
+        </h1>
+        <form>
+            <input type="text" name="name" placeholder="name"><br><br>
+            <input type="text" name="surname" placeholder="surname"><br><br>
+            <input type="tel" name="tel" placeholder="tel"><br><br>
+            <h3>Choose package</h3>
+            <input type="radio" name="Komani lake">Komani lake
+            <input type="radio" name="theth">Theth
+            <input type="radio" name="vjosa">Vjosa<br><br>
+            <input type="submit" name="submit"><br><br>
+
+        </form>
+
+    </div>
+    
+    
+    
+
+    </div>
+</body>
+</html>
